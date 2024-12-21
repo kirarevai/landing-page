@@ -18,7 +18,6 @@ body, html {
 
 .header-text {
     font-size: 24px;
-    color: ;
     font-weight: bold;
 }
 
@@ -31,10 +30,11 @@ h1 {
 p {
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: 300;
 }
 
 img {
-    width: 348px;
+    width: 450px;
     height: auto;
 }
 
@@ -45,6 +45,7 @@ img {
     background-color: #3882F6;
     border: none;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .content {
@@ -72,6 +73,112 @@ ul {
 }
 
 .info {
+    margin: 28px;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
     display: flex;
     justify-content: center;
+}
+
+.square {
+    width: 180px;
+    height: 180px;
+    border: 5px solid #3882F6;
+    margin: 10px;
+    border-radius: 6%;
+    display: flex;
+}
+
+.squares {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    max-width: 200px;
+}
+
+.subtexts {
+    margin: auto;
+    padding: 2px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.information {
+    margin: 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 35px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 240px;
+}
+
+.dquote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.author {
+    margin-top: 80px;
+    margin-left: 80px;
+    font-weight: 600;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    border-radius: 10px;
+    margin: 110px;
+    height: 100px;
+}
+
+.signbuttontwo {
+    font-weight: bold;
+    width: 120px;
+    height: auto;
+    padding: 5px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: none;
+    margin-left: 80px;
+}
+
+.subtext {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.squares img {
+    width: 180px;
+    height: 180px;
 }
